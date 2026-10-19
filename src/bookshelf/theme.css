@@ -1,0 +1,63 @@
+/*
+ * Colours come from custom properties only.
+ * - No data-theme attribute on <html>: follow the device setting (the media query).
+ * - data-theme="light" or "dark": the author's choice, which wins over the device setting.
+ * The dark values appear twice because CSS cannot share one block between a media query
+ * and an attribute selector; keep the two blocks identical.
+ */
+:root {
+  color-scheme: light;
+  --background: #f6f4ef;
+  --foreground: #1d1d1b;
+  --muted: #6b6b66;
+  --card-background: #ffffff;
+  --border: #d8d4c8;
+  --error: #b3261e;
+  --accent: #2f5d8a;
+  --accent-contrast: #ffffff;
+  --icon-filter: none;
+  --placeholder-filter: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --background: #15171a;
+    --foreground: #e8e6e1;
+    --muted: #a3a29c;
+    --card-background: #1f2227;
+    --border: #343840;
+    --error: #ff8a80;
+    --accent: #7fb0e6;
+    --accent-contrast: #0b1a2b;
+    --icon-filter: invert(1);
+    --placeholder-filter: invert(1) hue-rotate(180deg);
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --background: #15171a;
+  --foreground: #e8e6e1;
+  --muted: #a3a29c;
+  --card-background: #1f2227;
+  --border: #343840;
+  --error: #ff8a80;
+  --accent: #7fb0e6;
+  --accent-contrast: #0b1a2b;
+  --icon-filter: invert(1);
+  --placeholder-filter: invert(1) hue-rotate(180deg);
+}
+
+/* Author display rules on custom elements would otherwise override the hidden attribute. */
+[hidden] {
+  display: none;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, sans-serif;
+  font-size: 1.125rem;
+}

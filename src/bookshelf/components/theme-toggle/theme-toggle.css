@@ -1,0 +1,28 @@
+theme-toggle {
+  display: block;
+
+  .theme-toggle-button {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    min-height: 3rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 0.5rem;
+    background: var(--card-background);
+    color: var(--foreground);
+    font: inherit;
+    cursor: pointer;
+
+    &:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 2px;
+    }
+  }
+
+  .theme-toggle-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    filter: var(--icon-filter);
+  }
+}

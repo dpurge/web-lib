@@ -1,0 +1,794 @@
+[
+  {
+    "title": "Sample shelf 1",
+    "description": "A synthetic shelf used to preview the layout.",
+    "books": [
+      {
+        "title": "An Introduction to Orchards",
+        "subtitle": "Illustrated",
+        "author": "Everly Hale",
+        "year": "1969",
+        "description": "",
+        "cover": "./data/covers/cover-2.svg",
+        "book": "./sample-book-001/index.html",
+        "audio": "./sample-book-001/audio.html"
+      },
+      {
+        "title": "Notes on Markets",
+        "subtitle": "Second edition",
+        "author": "Dunmore Garrow",
+        "year": "1992",
+        "description": "",
+        "cover": "",
+        "book": "./sample-book-002/index.html"
+      },
+      {
+        "title": "A Very Long Sample Title That Keeps Going To Test How Cards Wrap When The Text Does Not Fit On One Line",
+        "subtitle": "",
+        "author": "Alder Brook",
+        "year": "1947",
+        "description": "",
+        "cover": "./data/covers/cover-4.svg",
+        "book": "./sample-book-003/index.html"
+      },
+      {
+        "title": "An Introduction to Lighthouses",
+        "subtitle": "",
+        "author": "Everly Brook",
+        "year": "2014",
+        "description": "",
+        "cover": "./data/covers/cover-5.svg",
+        "book": "./sample-book-004/index.html"
+      },
+      {
+        "title": "Пример названия книги",
+        "subtitle": "Second edition",
+        "author": "Fenwick Brook",
+        "year": "2005",
+        "description": "",
+        "cover": "./data/covers/cover-1.svg",
+        "book": "./sample-book-005/index.html",
+        "pdf": "./sample-book-005/book.pdf"
+      },
+      {
+        "title": "An Introduction to Rivers",
+        "subtitle": "Volume 2",
+        "author": "Brook Dunmore",
+        "year": "1905",
+        "description": "",
+        "cover": "./data/covers/cover-2.svg",
+        "book": "./sample-book-006/index.html",
+        "pdf": "./sample-book-006/book.pdf"
+      },
+      {
+        "title": "An Introduction to Bridges",
+        "subtitle": "Volume 2",
+        "author": "Castell Garrow",
+        "year": "2017",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "./data/covers/cover-3.svg",
+        "book": "",
+        "audio": "./sample-book-007/audio.html"
+      },
+      {
+        "title": "A Short Guide to Rivers",
+        "subtitle": "",
+        "author": "Alder Fenwick",
+        "year": "1911",
+        "description": "",
+        "cover": "./data/covers/cover-4.svg",
+        "book": "./sample-book-008/index.html"
+      },
+      {
+        "title": "示例书名",
+        "subtitle": "",
+        "author": "Fenwick Everly",
+        "year": "1945",
+        "description": "",
+        "cover": "",
+        "book": "./sample-book-009/index.html",
+        "pdf": "./sample-book-009/book.pdf"
+      },
+      {
+        "title": "Tales of Lighthouses",
+        "subtitle": "",
+        "author": "Alder Dunmore",
+        "year": "1993",
+        "description": "",
+        "cover": "./data/covers/cover-1.svg",
+        "book": "./sample-book-010/index.html",
+        "pdf": "./sample-book-010/book.pdf"
+      },
+      {
+        "title": "A Short Guide to Bridges",
+        "subtitle": "Volume 2",
+        "author": "Everly Brook",
+        "year": "1949",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "./data/covers/cover-2.svg",
+        "book": "./sample-book-011/index.html"
+      },
+      {
+        "title": "An Introduction to Bridges",
+        "subtitle": "",
+        "author": "Dunmore Castell",
+        "year": "1974",
+        "description": "",
+        "cover": "./data/covers/cover-3.svg",
+        "book": "./sample-book-012/index.html"
+      }
+    ]
+  },
+  {
+    "title": "Sample shelf 2",
+    "description": "",
+    "books": [
+      {
+        "title": "An Introduction to Rivers",
+        "subtitle": "Volume 2",
+        "author": "Castell Garrow",
+        "year": "1958",
+        "description": "",
+        "cover": "./data/covers/cover-4.svg",
+        "book": "./sample-book-013/index.html"
+      },
+      {
+        "title": "An Introduction to Lighthouses",
+        "subtitle": "Volume 1",
+        "author": "Hale Castell",
+        "year": "1982",
+        "description": "",
+        "cover": "./data/covers/cover-5.svg",
+        "book": "./sample-book-014/index.html"
+      },
+      {
+        "title": "A Short Guide to Gardens",
+        "subtitle": "Second edition",
+        "author": "Hale Castell",
+        "year": "2016",
+        "description": "",
+        "cover": "./data/covers/cover-1.svg",
+        "book": "./sample-book-015/index.html"
+      },
+      {
+        "title": "The Complete Book of Harbours",
+        "subtitle": "",
+        "author": "Fenwick Hale",
+        "year": "1996",
+        "description": "",
+        "cover": "./data/covers/cover-2.svg",
+        "book": "./sample-book-016/index.html",
+        "pdf": "./sample-book-016/book.pdf",
+        "audio": ""
+      },
+      {
+        "title": "Tales of Gardens",
+        "subtitle": "Second edition",
+        "author": "Alder Castell",
+        "year": "1907",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "",
+        "book": "./sample-book-017/index.html"
+      },
+      {
+        "title": "A Short Guide to Markets",
+        "subtitle": "",
+        "author": "Castell Alder",
+        "year": "1982",
+        "description": "",
+        "cover": "./data/covers/cover-4.svg",
+        "book": "./sample-book-018/index.html"
+      },
+      {
+        "title": "Tales of Orchards",
+        "subtitle": "",
+        "author": "Castell Alder",
+        "year": "1913",
+        "description": "",
+        "cover": "",
+        "book": "./sample-book-019/index.html",
+        "pdf": "./sample-book-019/book.pdf",
+        "audio": "./sample-book-019/audio.html"
+      },
+      {
+        "title": "A Short Guide to Orchards",
+        "subtitle": "",
+        "author": "Garrow Everly",
+        "year": "1934",
+        "description": "",
+        "cover": "",
+        "book": "./sample-book-020/index.html",
+        "audio": "./sample-book-020/audio.html"
+      },
+      {
+        "title": "Notes on Orchards",
+        "subtitle": "Second edition",
+        "author": "Dunmore Garrow",
+        "year": "1984",
+        "description": "",
+        "cover": "",
+        "book": "./sample-book-021/index.html",
+        "pdf": "./sample-book-021/book.pdf"
+      },
+      {
+        "title": "An Introduction to Rivers",
+        "subtitle": "Illustrated",
+        "author": "Everly Everly",
+        "year": "1929",
+        "description": "",
+        "cover": "",
+        "book": "./sample-book-022/index.html",
+        "pdf": "./sample-book-022/book.pdf"
+      },
+      {
+        "title": "An Introduction to Markets",
+        "subtitle": "Illustrated",
+        "author": "Everly Castell",
+        "year": "1968",
+        "description": "",
+        "cover": "./data/covers/cover-4.svg",
+        "book": "./sample-book-023/index.html",
+        "audio": ""
+      },
+      {
+        "title": "An Introduction to Lighthouses",
+        "subtitle": "Volume 2",
+        "author": "Castell Dunmore",
+        "year": "1996",
+        "description": "",
+        "cover": "./data/covers/cover-5.svg",
+        "book": "./sample-book-024/index.html"
+      },
+      {
+        "title": "An Introduction to Mountains",
+        "subtitle": "Illustrated",
+        "author": "Castell Dunmore",
+        "year": "2005",
+        "description": "",
+        "cover": "./data/covers/cover-1.svg",
+        "book": "./sample-book-025/index.html",
+        "audio": "./sample-book-025/audio.html"
+      },
+      {
+        "title": "Tales of Orchards",
+        "subtitle": "Second edition",
+        "author": "Hale Castell",
+        "year": "1924",
+        "description": "",
+        "cover": "./data/covers/cover-2.svg",
+        "book": "./sample-book-026/index.html",
+        "audio": "./sample-book-026/audio.html"
+      },
+      {
+        "title": "An Introduction to Gardens",
+        "subtitle": "",
+        "author": "Brook Garrow",
+        "year": "1938",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "./data/covers/cover-3.svg",
+        "book": "./sample-book-027/index.html",
+        "pdf": "./sample-book-027/book.pdf",
+        "audio": "./sample-book-027/audio.html"
+      },
+      {
+        "title": "An Introduction to Gardens",
+        "subtitle": "",
+        "author": "Fenwick Brook",
+        "year": "1906",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "",
+        "book": "./sample-book-028/index.html",
+        "audio": "./sample-book-028/audio.html"
+      },
+      {
+        "title": "Notes on Harbours",
+        "subtitle": "Volume 2",
+        "author": "Alder Dunmore",
+        "year": "2003",
+        "description": "",
+        "cover": "./data/covers/cover-5.svg",
+        "book": "",
+        "pdf": "./sample-book-029/book.pdf"
+      },
+      {
+        "title": "A Short Guide to Rivers",
+        "subtitle": "Volume 1",
+        "author": "Castell Alder",
+        "year": "1913",
+        "description": "",
+        "cover": "./data/covers/cover-1.svg",
+        "book": "./sample-book-030/index.html"
+      },
+      {
+        "title": "Tales of Lighthouses",
+        "subtitle": "Illustrated",
+        "author": "Dunmore Fenwick",
+        "year": "2013",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "./data/covers/cover-2.svg",
+        "book": "./sample-book-031/index.html",
+        "audio": "./sample-book-031/audio.html"
+      },
+      {
+        "title": "The Complete Book of Orchards",
+        "subtitle": "Volume 1",
+        "author": "Fenwick Everly",
+        "year": "1984",
+        "description": "",
+        "cover": "./data/covers/cover-3.svg",
+        "book": "./sample-book-032/index.html"
+      }
+    ]
+  },
+  {
+    "title": "Sample shelf 3",
+    "description": "",
+    "books": [
+      {
+        "title": "Notes on Markets",
+        "subtitle": "Illustrated",
+        "author": "Fenwick Garrow",
+        "year": "1961",
+        "description": "",
+        "cover": "",
+        "book": "./sample-book-033/index.html"
+      },
+      {
+        "title": "The Complete Book of Bridges",
+        "subtitle": "",
+        "author": "Hale Dunmore",
+        "year": "1906",
+        "description": "",
+        "cover": "./data/covers/cover-5.svg",
+        "book": ""
+      },
+      {
+        "title": "The Complete Book of Lighthouses",
+        "subtitle": "Volume 1",
+        "author": "Dunmore Dunmore",
+        "year": "1940",
+        "description": "",
+        "cover": "./data/covers/cover-1.svg",
+        "book": "./sample-book-035/index.html"
+      },
+      {
+        "title": "Notes on Orchards",
+        "subtitle": "Volume 1",
+        "author": "Dunmore Brook",
+        "year": "1913",
+        "description": "",
+        "cover": "./data/covers/cover-2.svg",
+        "book": "./sample-book-036/index.html"
+      },
+      {
+        "title": "A Short Guide to Orchards",
+        "subtitle": "",
+        "author": "Dunmore Everly",
+        "year": "1902",
+        "description": "",
+        "cover": "./data/covers/cover-3.svg",
+        "book": "./sample-book-037/index.html",
+        "pdf": "./sample-book-037/book.pdf"
+      },
+      {
+        "title": "Tales of Harbours",
+        "subtitle": "",
+        "author": "Brook Brook",
+        "year": "2010",
+        "description": "",
+        "cover": "./data/covers/cover-4.svg",
+        "book": ""
+      },
+      {
+        "title": "Tales of Harbours",
+        "subtitle": "",
+        "author": "Everly Alder",
+        "year": "1972",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "./data/covers/cover-5.svg",
+        "book": "./sample-book-039/index.html"
+      }
+    ]
+  },
+  {
+    "title": "Sample shelf 4",
+    "description": "A synthetic shelf used to preview the layout.",
+    "books": [
+      {
+        "title": "The Complete Book of Mountains",
+        "subtitle": "",
+        "author": "Dunmore Hale",
+        "year": "1955",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "./data/covers/cover-1.svg",
+        "book": ""
+      },
+      {
+        "title": "Notes on Orchards",
+        "subtitle": "",
+        "author": "Alder Garrow",
+        "year": "1900",
+        "description": "",
+        "cover": "./data/covers/cover-2.svg",
+        "book": "./sample-book-041/index.html",
+        "audio": "./sample-book-041/audio.html"
+      },
+      {
+        "title": "A Short Guide to Orchards",
+        "subtitle": "Illustrated",
+        "author": "Dunmore Hale",
+        "year": "1923",
+        "description": "",
+        "cover": "./data/covers/cover-3.svg",
+        "book": "./sample-book-042/index.html",
+        "pdf": "./sample-book-042/book.pdf"
+      },
+      {
+        "title": "A Short Guide to Mountains",
+        "subtitle": "Volume 1",
+        "author": "Garrow Dunmore",
+        "year": "1952",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "./data/covers/cover-4.svg",
+        "book": "./sample-book-043/index.html"
+      },
+      {
+        "title": "A Short Guide to Harbours",
+        "subtitle": "Volume 2",
+        "author": "Dunmore Dunmore",
+        "year": "2013",
+        "description": "",
+        "cover": "./data/covers/cover-5.svg",
+        "book": "./sample-book-044/index.html"
+      },
+      {
+        "title": "Tales of Bridges",
+        "subtitle": "Second edition",
+        "author": "Castell Alder",
+        "year": "1940",
+        "description": "",
+        "cover": "./data/covers/cover-1.svg",
+        "book": "./sample-book-045/index.html"
+      },
+      {
+        "title": "A Short Guide to Orchards",
+        "subtitle": "Volume 1",
+        "author": "Hale Castell",
+        "year": "1903",
+        "description": "",
+        "cover": "./data/covers/cover-2.svg",
+        "book": "./sample-book-046/index.html"
+      },
+      {
+        "title": "The Complete Book of Mountains",
+        "subtitle": "Volume 2",
+        "author": "Castell Garrow",
+        "year": "1987",
+        "description": "",
+        "cover": "./data/covers/cover-3.svg",
+        "book": "./sample-book-047/index.html"
+      },
+      {
+        "title": "Tales of Bridges",
+        "subtitle": "Illustrated",
+        "author": "Alder Brook",
+        "year": "1922",
+        "description": "",
+        "cover": "./data/covers/cover-4.svg",
+        "book": "./sample-book-048/index.html"
+      },
+      {
+        "title": "Tales of Gardens",
+        "subtitle": "Volume 2",
+        "author": "Dunmore Brook",
+        "year": "1993",
+        "description": "",
+        "cover": "./data/covers/cover-5.svg",
+        "book": "./sample-book-049/index.html",
+        "pdf": "./sample-book-049/book.pdf",
+        "audio": "./sample-book-049/audio.html"
+      },
+      {
+        "title": "An Introduction to Harbours",
+        "subtitle": "Volume 2",
+        "author": "Dunmore Everly",
+        "year": "1922",
+        "description": "",
+        "cover": "./data/covers/cover-1.svg",
+        "book": "./sample-book-050/index.html"
+      },
+      {
+        "title": "Notes on Gardens",
+        "subtitle": "Illustrated",
+        "author": "Everly Castell",
+        "year": "2019",
+        "description": "",
+        "cover": "./data/covers/cover-2.svg",
+        "book": "./sample-book-051/index.html",
+        "pdf": "./sample-book-051/book.pdf"
+      },
+      {
+        "title": "The Complete Book of Lighthouses",
+        "subtitle": "",
+        "author": "Brook Dunmore",
+        "year": "1992",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "./data/covers/cover-3.svg",
+        "book": "./sample-book-052/index.html",
+        "audio": "./sample-book-052/audio.html"
+      },
+      {
+        "title": "Tales of Bridges",
+        "subtitle": "Volume 1",
+        "author": "Hale Alder",
+        "year": "1992",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "",
+        "book": "./sample-book-053/index.html"
+      },
+      {
+        "title": "A Short Guide to Harbours",
+        "subtitle": "",
+        "author": "Brook Hale",
+        "year": "1936",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "./data/covers/cover-5.svg",
+        "book": "./sample-book-054/index.html",
+        "pdf": "./sample-book-054/book.pdf"
+      }
+    ]
+  },
+  {
+    "title": "Sample shelf 5",
+    "description": "",
+    "books": [
+      {
+        "title": "The Complete Book of Harbours",
+        "subtitle": "Volume 1",
+        "author": "Castell Alder",
+        "year": "1911",
+        "description": "",
+        "cover": "./data/covers/cover-1.svg",
+        "book": "./sample-book-055/index.html",
+        "pdf": "./sample-book-055/book.pdf",
+        "audio": "./sample-book-055/audio.html"
+      },
+      {
+        "title": "An Introduction to Bridges",
+        "subtitle": "Illustrated",
+        "author": "Garrow Brook",
+        "year": "1981",
+        "description": "",
+        "cover": "./data/covers/cover-2.svg",
+        "book": "./sample-book-056/index.html",
+        "audio": ""
+      },
+      {
+        "title": "Tales of Markets",
+        "subtitle": "Volume 2",
+        "author": "Everly Fenwick",
+        "year": "1977",
+        "description": "",
+        "cover": "./data/covers/cover-3.svg",
+        "book": "./sample-book-057/index.html",
+        "pdf": "./sample-book-057/book.pdf"
+      },
+      {
+        "title": "The Complete Book of Gardens",
+        "subtitle": "",
+        "author": "Hale Garrow",
+        "year": "1972",
+        "description": "",
+        "cover": "./data/covers/cover-4.svg",
+        "book": "./sample-book-058/index.html",
+        "audio": "./sample-book-058/audio.html"
+      }
+    ]
+  },
+  {
+    "title": "Sample shelf 6",
+    "description": "",
+    "books": [
+      {
+        "title": "An Introduction to Bridges",
+        "subtitle": "",
+        "author": "Dunmore Garrow",
+        "year": "1910",
+        "description": "",
+        "cover": "./data/covers/cover-5.svg",
+        "book": ""
+      },
+      {
+        "title": "A Short Guide to Mountains",
+        "subtitle": "Second edition",
+        "author": "Garrow Castell",
+        "year": "1957",
+        "description": "",
+        "cover": "./data/covers/cover-1.svg",
+        "book": "./sample-book-060/index.html"
+      },
+      {
+        "title": "Tales of Gardens",
+        "subtitle": "Volume 2",
+        "author": "Alder Alder",
+        "year": "1960",
+        "description": "",
+        "cover": "./data/covers/cover-2.svg",
+        "book": "./sample-book-061/index.html",
+        "pdf": "./sample-book-061/book.pdf",
+        "audio": ""
+      },
+      {
+        "title": "An Introduction to Mountains",
+        "subtitle": "Illustrated",
+        "author": "Hale Brook",
+        "year": "1994",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "./data/covers/cover-3.svg",
+        "book": "./sample-book-062/index.html"
+      },
+      {
+        "title": "The Complete Book of Markets",
+        "subtitle": "Volume 1",
+        "author": "Castell Garrow",
+        "year": "1932",
+        "description": "",
+        "cover": "./data/covers/cover-4.svg",
+        "book": "./sample-book-063/index.html"
+      },
+      {
+        "title": "Tales of Gardens",
+        "subtitle": "Illustrated",
+        "author": "Fenwick Garrow",
+        "year": "1997",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "./data/covers/cover-5.svg",
+        "book": "./sample-book-064/index.html"
+      },
+      {
+        "title": "Tales of Harbours",
+        "subtitle": "Second edition",
+        "author": "Everly Alder",
+        "year": "2015",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "./data/covers/cover-1.svg",
+        "book": "./sample-book-065/index.html",
+        "audio": "./sample-book-065/audio.html"
+      },
+      {
+        "title": "A Short Guide to Harbours",
+        "subtitle": "",
+        "author": "Hale Dunmore",
+        "year": "1918",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "",
+        "book": "./sample-book-066/index.html"
+      },
+      {
+        "title": "Notes on Orchards",
+        "subtitle": "",
+        "author": "Fenwick Garrow",
+        "year": "1901",
+        "description": "",
+        "cover": "",
+        "book": "./sample-book-067/index.html"
+      }
+    ]
+  },
+  {
+    "title": "Sample shelf 7",
+    "description": "A synthetic shelf used to preview the layout.",
+    "books": [
+      {
+        "title": "A Short Guide to Bridges",
+        "subtitle": "",
+        "author": "Hale Everly",
+        "year": "1938",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "./data/covers/cover-4.svg",
+        "book": "./sample-book-068/index.html"
+      },
+      {
+        "title": "Notes on Rivers",
+        "subtitle": "Volume 1",
+        "author": "Brook Alder",
+        "year": "1904",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "",
+        "book": "./sample-book-069/index.html"
+      },
+      {
+        "title": "Tales of Markets",
+        "subtitle": "Illustrated",
+        "author": "Brook Hale",
+        "year": "2001",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "./data/covers/cover-1.svg",
+        "book": "./sample-book-070/index.html"
+      }
+    ]
+  },
+  {
+    "title": "Sample shelf 8",
+    "description": "",
+    "books": [
+      {
+        "title": "Tales of Gardens",
+        "subtitle": "Second edition",
+        "author": "Fenwick Garrow",
+        "year": "1968",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "",
+        "book": "./sample-book-071/index.html",
+        "audio": "./sample-book-071/audio.html"
+      },
+      {
+        "title": "Tales of Rivers",
+        "subtitle": "Second edition",
+        "author": "Brook Alder",
+        "year": "1921",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "./data/covers/cover-3.svg",
+        "book": "./sample-book-072/index.html",
+        "audio": "./sample-book-072/audio.html"
+      },
+      {
+        "title": "Tales of Gardens",
+        "subtitle": "",
+        "author": "Alder Everly",
+        "year": "1950",
+        "description": "",
+        "cover": "./data/covers/cover-4.svg",
+        "book": ""
+      },
+      {
+        "title": "A Short Guide to Gardens",
+        "subtitle": "Second edition",
+        "author": "Everly Alder",
+        "year": "1953",
+        "description": "",
+        "cover": "./data/covers/cover-5.svg",
+        "book": "./sample-book-074/index.html",
+        "pdf": "./sample-book-074/book.pdf"
+      },
+      {
+        "title": "Tales of Mountains",
+        "subtitle": "Second edition",
+        "author": "Dunmore Hale",
+        "year": "1975",
+        "description": "",
+        "cover": "./data/covers/cover-1.svg",
+        "book": "./sample-book-075/index.html"
+      },
+      {
+        "title": "A Short Guide to Bridges",
+        "subtitle": "Volume 1",
+        "author": "Alder Fenwick",
+        "year": "1962",
+        "description": "A sample description that shows how a short note about the book is displayed.",
+        "cover": "./data/covers/cover-2.svg",
+        "book": "./sample-book-076/index.html",
+        "audio": "./sample-book-076/audio.html"
+      },
+      {
+        "title": "An Introduction to Markets",
+        "subtitle": "Volume 1",
+        "author": "Brook Fenwick",
+        "year": "2000",
+        "description": "",
+        "cover": "./data/covers/cover-3.svg",
+        "book": "./sample-book-077/index.html",
+        "pdf": "./sample-book-077/book.pdf"
+      },
+      {
+        "title": "A Short Guide to Harbours",
+        "subtitle": "Illustrated",
+        "author": "Dunmore Castell",
+        "year": "2001",
+        "description": "",
+        "cover": "./data/covers/cover-4.svg",
+        "book": ""
+      }
+    ]
+  }
+]

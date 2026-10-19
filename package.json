@@ -1,24 +1,25 @@
 {
   "name": "web-lib",
-  "version": "0.0.1",
-  "description": "Library for web components",
+  "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=26"
+  },
   "scripts": {
-    "build": "rollup -c",
-    "build:prod": "rollup -c --environment NODE_ENV:production",
-    "start": "deno run --allow-net --allow-read bin/server.ts"
+    "typecheck": "tsc --noEmit",
+    "build": "node scripts/build.mjs",
+    "sample-data": "node scripts/generate-sample-data.mjs",
+    "serve": "node scripts/serve.mjs",
+    "test": "node scripts/test.mjs"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^16.0.1",
-    "@rollup/plugin-terser": "^0.4.4",
-    "@rollup/plugin-typescript": "^12.1.4",
-    "@std/text": "npm:@jsr/std__text@^1.0.12",
-    "@std/http": "npm:@jsr/std__http@^1.0.19",
-    "rollup": "^4.44.2",
-    "rollup-plugin-css-only": "^4.5.2",
-    "rollup-plugin-svelte": "^7.2.2",
-    "svelte": "^5.35.4",
-    "svelte-preprocess": "^6.0.3",
-    "tslib": "^2.8.1"
+    "@types/node": "^26.6.5",
+    "esbuild": "^0.28.2",
+    "happy-dom": "^21.0.3",
+    "typescript": "^7.0.2",
+    "valibot": "^1.5.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
   }
 }

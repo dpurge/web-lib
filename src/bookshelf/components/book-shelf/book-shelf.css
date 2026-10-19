@@ -1,0 +1,14 @@
+book-shelf {
+  display: block;
+  margin-bottom: 2rem;
+
+  .shelf-description:empty {
+    display: none;
+  }
+
+  .shelf-books {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
+    gap: 1rem;
+  }
+}

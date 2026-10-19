@@ -1,0 +1,37 @@
+bookshelf-app {
+  display: block;
+  padding: 1rem;
+
+  /* One sticky bar: the tabs take the space, the theme toggle stays at the right end */
+  .bookshelf-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    background: var(--background);
+    border-bottom: 1px solid var(--border);
+
+    shelf-tabs {
+      flex: 1 1 20rem;
+      min-width: 0;
+    }
+
+    theme-toggle {
+      flex: none;
+      margin-left: auto;
+    }
+  }
+
+  .bookshelf-error {
+    padding: 1rem;
+    border: 1px solid var(--error);
+    border-radius: 0.5rem;
+    color: var(--error);
+    white-space: pre-wrap;
+  }
+}
